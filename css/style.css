@@ -1,0 +1,162 @@
+/*
+Project Name: Ecard.ly
+Client: General Assembly
+Author: Christopher Castig | @castig
+Developer @GA in NYC
+*/
+
+/*
+Background Color: #d6d6d6
+Text Color: #000000
+Link Color: #cc6633
+
+Container Width: 940px
+Left Columm (#main  ): 640px
+Right Column (#sidebar): 280px
+
+Heading 1 (using the image replacment technique)
+
+Heading 2 (20px)
+
+Paragraph (12px)
+
+
+
+ARCHIVE (12px)
+*/
+
+/***************
+*    HEADER     *
+****************/
+
+#header {
+  background: url(../images/background.jpg);
+  display:  block;
+  background-repeat: repeat-x;
+  height: auto;
+  margin-bottom: 20px;
+  /*text-indent:  -9999px;*/
+}
+
+h1.logo {
+  background: url(../images/logo.png);
+  display:  block;
+  margin:   auto;
+  background-repeat: no-repeat;
+  height: 220px;
+  width: 220px;
+  text-indent:  -9999px;
+}
+
+
+/***************
+*     BODY      *
+****************/
+
+body  {
+  font: 100%/1.5 sans-serif;
+  background-color: #d6d6d6;
+  color: #000000;
+}
+
+#page {
+  width: 940px;
+  margin: auto;
+}
+#content {
+  width: 640px;
+  float:  left;
+  background: #fff;
+}
+
+h2  {
+  font-size: 20px;
+}
+
+
+a  {
+  color: #cc6633;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.author  {}
+
+.post {
+  margin: 50px 18px 50px 18px;
+  font-size: 12px;
+}
+
+.post:first-child {
+  margin: 35px 18px 50px 18px;
+}
+
+.post:last-child {
+  margin: 50px 18px 60px 18px;
+}
+
+
+/***************
+* CLEAR-FIX   *
+****************/
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+/***************
+*     SIDEBAR   *
+****************/
+#sidebar  {
+  width: 280px;
+  float:right;
+  background: #fff;
+  font-size: 12px;
+  padding-bottom: 47px;
+}
+
+#sidebar h3 {
+  padding-left: 25px;
+}
+
+#sidebar ul {
+  margin-top: 28px;
+  padding-left: 25px;
+
+}
+
+#sidebar li  {
+    list-style: none;
+    font-weight: bold;
+}
+
+#sidebar img {
+  padding-left: 25px;
+  margin-top: 22px;
+}
+
+
+/***************
+*     FOOTER    *
+****************/
+
+#footer {
+  text-align: center;
+}
+
+#footer ul {
+  margin: 36px 0px 39px 0px;
+}
+
+#footer li {
+  display: inline-block;
+  list-style: none;
+  margin: ;
+}
